@@ -16,7 +16,8 @@ span{
     background-color: darkkhaki;
 }
 
-/* se pueden crar estilos segun clases y se crean con un .*/
+/* se pueden crar estilos segun clases y se crean con un 
+las clases son muy importantes para manejar los CSS.*/
 
 .parrafoverde{
     color: darkturquoise;
@@ -28,4 +29,22 @@ span{
     font-size: x-large;
     font-weight: bolder;
     font-style: oblique;
+}
+
+/* para crear estilos lo mejor es crear clases */
+
+/* modificar tamaño de imagenes*/
+
+.imagenpequena{
+    height: 200px;
+}
+/* se puede modificar el ancho y alto de cualquier componente de la pagina pero hay que tener manejarlo con mucho cuidado*/
+
+/*crear margenes para los contenedores
+margin, se utiliza para separar contenedores de lo que esta fuera de el.
+padding se utiliza para que me quede separado todo lo que tengo en el div y que se vea separado de los bordes*/
+
+.contenedorconmargen{
+    margin: auto;
+    padding: 20px;
 }
