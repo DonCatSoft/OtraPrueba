@@ -45,6 +45,36 @@ margin, se utiliza para separar contenedores de lo que esta fuera de el.
 padding se utiliza para que me quede separado todo lo que tengo en el div y que se vea separado de los bordes*/
 
 .contenedorconmargen{
+    
     margin: auto;
-    padding: 20px;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+/* se pueden utilizar los display grid para crear especie de tablas seleccionando el tamaño de las columnas o filas*/
+.divborder{
+    border: 3px solid green;
+    display: grid;
+    grid-column: auto;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 50px 50px;
+    margin: 30px;
+    
+}
+
+
+.divtest{
+    border: 1px solid red;
+}
+
+/* Display tipo flex: define el espacio del componente y ajusta los componentes
+se puede definir si organizo de forma horizontal y vertical
+   */
+
+.contenedordivflex{
+    border: 2px solid hotpink;
+    display: flex;
+    height: 100px;;
+    flex-direction: column;
+
 }
