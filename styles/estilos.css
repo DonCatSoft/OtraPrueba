@@ -1,0 +1,31 @@
+p {
+    color: brown;
+}
+
+h3{
+    color: cornflowerblue;
+}
+
+span{
+    color: darkgreen;
+}
+
+/* para crear un estilo para una tiqueta en especial se debe agregar id a la etiqueta y en la hoja de estilo de inicia con # y el nombre de id */
+
+#parrafo1{
+    background-color: darkkhaki;
+}
+
+/* se pueden crar estilos segun clases y se crean con un .*/
+
+.parrafoverde{
+    color: darkturquoise;
+}
+
+.parrafoamarillo{
+    color: yellow;
+    background-color: blue;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: oblique;
+}
