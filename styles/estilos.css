@@ -40,10 +40,6 @@ ul{
 
 /*para las clases existen unos modificadores, estos se agregan en las clases al colocarle ":"*/
 
-.mainButton:hover{
-    box-shadow: 1px 1px green;
-}
-
 .ButtonSecundary{
     background-color: #563caa;
     color: white;
@@ -53,4 +49,18 @@ ul{
 
 .ButtonSecundary:hover{
     box-shadow: 1px 1px rgb(123, 123, 236);
+}
+    .buscar{
+    background-color: white;
+    border: 1px solid grey;
+    padding: 4px;
+    border-radius: 8px;
+
+}
+.buscar:focus-within{
+    border: 1px solid blue;
+}
+.buscar > input{
+    outline: none;
+    border: 0px;
 }
