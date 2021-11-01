@@ -84,18 +84,37 @@ align-items: center;
     width: 240px;
     height: 350px;
     display: flex;
+    margin: 10px;
+}
+
+.contenedorimage:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .breedCardContainer{
  display: flex;   
+ 
 }
 
 .breedcard{
     margin: 10px;
+    background-color: rgb(123, 123, 236);
+    box-shadow: 5px 10px 5px ;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px; 
 }
 
 .contenedorimage> img{
     object-fit: cover;
     width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;    
 }
 
+.breedtitle{
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+    font-size: x-large;
+}
