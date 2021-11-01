@@ -16,14 +16,7 @@ ul{
     padding: 10px;
 }
 
-.logo{
-    height: 70px;
-}
-.mainButton{
-    background-color: #1bb76e;
-    color: white;
-}
-.button{
+.Button{
     border: 0px;
     padding: 5px 10px;
     border-radius: 8px;
@@ -37,7 +30,10 @@ ul{
 }
 
 
-
+.mainButton{
+    background-color: #1bb76e;
+    color: white;
+}
 
 /*para las clases existen unos modificadores, estos se agregan en las clases al colocarle ":"*/
 
@@ -46,12 +42,12 @@ ul{
 }
 
 .ButtonSecundary{
-    background-color: #1bb76e;
+    background-color: #563caa;
     color: white;
 }
 
 /*para las clases existen unos modificadores, estos se agregan en las clases al colocarle ":"*/
 
 .ButtonSecundary:hover{
-    box-shadow: 1px 1px green;
+    box-shadow: 1px 1px rgb(123, 123, 236);
 }
