@@ -79,3 +79,23 @@ align-items: center;
 .iconobusqueda:hover {
     color: blue;
 }
+
+.contenedorimage{
+    width: 240px;
+    height: 350px;
+    display: flex;
+}
+
+.breedCardContainer{
+ display: flex;   
+}
+
+.breedcard{
+    margin: 10px;
+}
+
+.contenedorimage> img{
+    object-fit: cover;
+    width: 100%;
+}
+
